@@ -8,9 +8,18 @@ src_install() {
 	cd ${S}
 	dobin gnome-gmail
 
+	insinto /etc/gconf/schemas
+	doins gnome-gmail.schemas
+
 	insinto /usr/lib/${PN}
 	doins gnomegmail.glade
 
 	insinto /usr/share/gnome-control-center/default-apps
 	doins gnome-gmail.xml
+
+	for i in 16x16 24x24 32x32 48x48
+	do
+		insinto /usr/share/icons/hicolor/${i}/apps
+		newins icons/gmail-${i}.png gmail.png
+	done
 }

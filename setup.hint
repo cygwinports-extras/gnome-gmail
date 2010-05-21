@@ -1,0 +1,9 @@
+category: Gnome Mail
+requires: GConf2 python python-dbus python-gconf2 python-gnomekeyring python-gtk2.0
+sdesc: "Allows using Gmail as default mail app in GNOME"
+ldesc: "Gnome Gmail is software which adds support for Gmail to the 
+Linux Gnome Desktop. It allows Gmail to be selected as the default mail 
+application for the desktop. Unlike other solutions on the net, Gnome 
+Gmail supports 'To:', 'Subject:', 'body', 'CC:', and 'BCC:' fields, and 
+also supports 'Send to...' from Nautilus. You can send file attachments 
+automatically."
