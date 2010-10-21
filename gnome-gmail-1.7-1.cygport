@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="Gmail handler for the GNOME desktop"
+HOMEPAGE="http://gnome-gmail.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gnome-gmail/${P}.tar.gz"
